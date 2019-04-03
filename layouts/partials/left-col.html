@@ -11,7 +11,9 @@
 
         <hgroup>
         <h1 class="header-author"><a href="/">{{ index .Site.Params "author"}}</a></h1>
+        <h3 class="header-slogan">{{ index .Site.Params "slogan"}}</h3>
         </hgroup>
+        
 
         {{ if isset .Site.Params "subtitle" }}
         <p class="header-subtitle">{{ index .Site.Params "subtitle" }}</p>
